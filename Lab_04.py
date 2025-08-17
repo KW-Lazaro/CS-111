@@ -70,3 +70,21 @@ surface_ara = (2 * width * height) + (2 * width * length) + (2 * height * length
 
 print(f"The volume of the cuboid is {volume}")
 print(f"The surface area of the cuboid is {surface_ara}")"""
+
+
+
+# Question 5
+# Author: KierW.
+# Date 18th August 2025
+
+"""import random
+
+# print(random.randint(1, 100))
+
+title = "Test Mark Generator"
+print(f"{title}")
+print("-" * (len(title)))
+
+test_total = int(input("Enter the test total: "))
+random_num = random.randint(1, test_total)
+print(f"You received {random_num} out of {test_total}")"""
