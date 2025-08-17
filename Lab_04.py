@@ -50,3 +50,23 @@ side_b = float(input("Enter side_b: "))
 length_H = ((side_a ** 2) + (side_b ** 2)) ** 0.5
 length_H = round(length_H, 1)
 print(f"The length of the hypotenuse is {length_H}")"""
+
+
+# Question 4
+# Author: KierW.
+# Date 18th August 2025
+
+"""title = "Cuboid Calculator"
+print(f"{title}")
+print("-" * (len(title)))
+
+print("Enter the dimensions of the cuboid")
+width = int(input("Width: "))
+length = int(input("Length: "))
+height = int(input("Height: "))
+
+volume = width * length * height
+surface_ara = (2 * width * height) + (2 * width * length) + (2 * height * length)
+
+print(f"The volume of the cuboid is {volume}")
+print(f"The surface area of the cuboid is {surface_ara}")"""
