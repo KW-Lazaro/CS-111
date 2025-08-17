@@ -19,7 +19,7 @@ print(f"There are {cupcakes_leftover} cupcakes left over.")"""
 
 
 # Question 2
-# Author: KierW.
+"""# Author: KierW.
 # Date 18th August 2025
 
 title = "=Pythagoras Calculator="
@@ -31,4 +31,22 @@ side_a = 4.0
 side_b = 3.0
 
 length_H = ((side_a ** 2) + (side_b ** 2)) ** 0.5
-print(f"The length of the hypotenuse is {length_H}")
+print(f"The length of the hypotenuse is {length_H}")"""
+
+
+
+# Question 3
+# Author: KierW.
+# Date 18th August 2025
+
+"""title = "=Pythagoras Calculator="
+print("=" * len(title))
+print(title)
+print("=" * len(title))
+
+side_a = float(input("Enter side_a: "))
+side_b = float(input("Enter side_b: "))
+
+length_H = ((side_a ** 2) + (side_b ** 2)) ** 0.5
+length_H = round(length_H, 1)
+print(f"The length of the hypotenuse is {length_H}")"""
