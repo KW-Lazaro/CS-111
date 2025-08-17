@@ -88,3 +88,16 @@ print("-" * (len(title)))
 test_total = int(input("Enter the test total: "))
 random_num = random.randint(1, test_total)
 print(f"You received {random_num} out of {test_total}")"""
+
+
+# Question 6
+# Author: KierW.
+# Date 18th August 2025
+
+import random
+print("Playing craps:")
+dice_1 = random.randint(1, 6)
+dice_2 = random.randint(1, 6)
+total_dice = dice_1 + dice_2
+print(f"You have rolled a {dice_1} and a {dice_2}")
+print(f"for a total of {total_dice}")
