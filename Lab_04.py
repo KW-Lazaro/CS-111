@@ -166,3 +166,46 @@ elif dice_1 != dice_2:
         print(f"This is called a {num_88}")
     elif total_dice == 10:
         print(f"This is called a {num_1010}")"""
+
+
+
+# Question 8
+# Author: KierW.
+# Date 18th August 2025
+
+import random
+title = "Grade Calculator"
+print("*" * (len(title) + 2))
+print(f"*{title}*")
+print("*" * (len(title) + 2))
+
+test_total = int(input("Enter the test total: "))
+random_num = random.randint(1, test_total)
+
+percentage = round((random_num / test_total) * 100, 1)
+
+print(f"You received {random_num} out of {test_total}")
+if percentage >= 90:
+    print(f"Your grade: A+")
+elif 85 <= percentage < 90:
+    print(f"Your grade: A")
+elif 80 <= percentage < 85:
+    print(f"Your grade: A-")
+elif 75 <= percentage < 80:
+    print(f"Your grade: B+")
+elif 70 <= percentage < 75:
+    print(f"Your grade: B")
+elif 65 <= percentage < 70:
+    print(f"Your grade: B-")
+elif 60 <= percentage < 65:
+    print(f"Your grade: C+")
+elif 55 <= percentage < 60:
+    print(f"Your grade: C")
+elif 50 <= percentage < 55:
+    print(f"Your grade: C-")
+elif 45 <= percentage < 50:
+    print(f"Your grade: D+")
+elif 40 <= percentage < 45:
+    print(f"Your grade: D")
+elif percentage < 40:
+    print(f"Your grade: D-")
